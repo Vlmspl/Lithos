@@ -53,6 +53,5 @@ public class ModRenderer {
         buffer.addVertex(0.2f, 79.4f, -1.5f).setColor(0xFFF8E71C); // Bottom-left
         buffer.addVertex(0.8f, 80f, -1.5f).setColor(0xFF50E3C2);  // Top-right
         buffer.addVertex(0.8f, 79.4f, -1.5f).setColor(0xFFB8E986); // Bottom-right
-
     }
 }

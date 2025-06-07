@@ -15,12 +15,9 @@ repositories {
 		name = 'BlameJared Maven (CrT / Bookshelf)'
 		url = 'https://maven.blamejared.com'
 	}
-	maven {
-		url = uri("https://maven.terraformersmc.com/releases")
-	}
-	maven {
-		url = uri("https://maven.ladysnake.org/releases")
-	}
+	maven { url 'https://maven.wispforest.io/releases' }
+	maven { url 'https://maven.su5ed.dev/releases' }
+	maven { url 'https://maven.fabricmc.net' }
 }
 
 loom {
@@ -55,7 +52,8 @@ dependencies {
 		exclude group: "me.fallenbreath"
 	}
 
-	modImplementation "dev.emi:trinkets:3.10.0"
+	modImplementation("io.wispforest:accessories-fabric:${project.accessories_version}")
+
 }
 
 processResources {
