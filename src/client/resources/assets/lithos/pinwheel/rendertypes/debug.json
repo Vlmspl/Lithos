@@ -1,6 +1,6 @@
 {
   "format": "POSITION_COLOR",
-  "mode": "TRIANGLE_STRIP",
+  "mode": "QUADS",
   "bufferSize": "TRANSIENT",
   "sort": false,
   "affectsCrumbling": true,
